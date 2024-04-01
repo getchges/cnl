@@ -6,27 +6,34 @@ communication between processes or applications running on different devices con
 
 
 How Sockets Work:
+
 Socket Creation:
 A program creates a socket using the appropriate programming interface provided by the operating system or a network library.
+
 Binding:
 The socket is bound to a specific IP address and port number, which serves as its unique identifier.
+
 Listening (Server) / Connecting (Client):
 In a server, the socket listens for incoming connection requests. Clients connect to the server's socket.
+
 Data Transfer:
 Once a connection is established, data can be sent and received bidirectionally between the client and server.
+
 Closing:
 When the communication is complete, the sockets are closed.
 
 Types of Sockets:
+
 Stream Sockets (TCP):
 	Provides a reliable, connection-oriented communication.
 	Ensures data delivery in the correct order without errors.
+
 Datagram Sockets (UDP):
- 
 	Provides a connectionless, unreliable communication.
 	Used when low overhead and speed are more critical than guaranteed delivery.
 
 Port Numbers:
+
 Port numbers are 16-bit unsigned integers, ranging from 0 to 65535.
 Port numbers 0 to 1023 are well-known ports, reserved for specific services. For example:
 80: HTTP (Hypertext Transfer Protocol) 443: HTTPS (HTTP Secure)
