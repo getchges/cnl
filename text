@@ -1,0 +1,69 @@
+Based on the PDF content, here are the detailed steps for each topic related to Wireshark software usage:
+
+1. Creating Profiles:
+   - Open Wireshark
+   - Go to the "Edit" menu
+   - Select "Configuration Profiles"
+   - Click on the "New" button to create a new profile
+   - Give a name to the profile and configure the desired settings
+   - Click "OK" to save the new profile
+
+2. Changing Layout:
+   - Open Wireshark
+   - Go to the "View" menu
+   - Select "Layout Type"
+   - Choose the desired layout option (e.g., 5 Panes, 4 Panes, etc.)
+
+3. Displaying Numbers in Packet Diagram:
+   - Open Wireshark and capture or open a capture file
+   - Go to the "View" menu
+   - Select "Time Display Format"
+   - Choose the desired format for displaying packet numbers
+
+4. Changing Time Display Format:
+   - Open Wireshark and capture or open a capture file
+   - Go to the "View" menu
+   - Select "Time Display Format"
+   - Choose the desired format for displaying timestamps
+
+5. Applying Filters:
+   - Open Wireshark and capture or open a capture file
+   - In the filter toolbar, enter the desired filter expression (e.g., "ip.src == 192.168.1.1" to filter by source IP address)
+   - Press Enter or click the "Apply" button to apply the filter
+
+6. Conversation Filter:
+   - Open Wireshark and capture or open a capture file
+   - Go to the "Statistics" menu
+   - Select "Conversation List"
+   - In the "Conversation List" window, select the desired conversation
+   - Right-click and choose "Apply as Filter" to apply the conversation filter
+
+7. Searching IP Address:
+   - Open Wireshark and capture or open a capture file
+   - Go to the "Edit" menu
+   - Select "Find Packet..."
+   - In the "Find Packet" window, enter the IP address you want to search
+   - Choose the desired search options (e.g., search direction, string type)
+   - Click "Find" to search for the IP address in the capture
+
+8. Applying Column:
+   - Open Wireshark and capture or open a capture file
+   - Go to the "View" menu
+   - Select "Layout Panes"
+   - Choose the desired pane (e.g., "Packet List")
+   - Right-click on the column header in the selected pane
+   - Select "Column Preferences"
+   - In the "Preferences" window, add or remove columns as desired
+   - Click "OK" to apply the column changes
+
+9. Capturing HTTP:
+   - Open Wireshark
+   - Go to the "Capture" menu
+   - Select "Options"
+   - In the "Capture Options" window, choose the appropriate interface
+   - Click "Start" to begin capturing packets
+   - Perform the desired HTTP activities (e.g., browsing websites, downloading files)
+   - Go to the "Capture" menu and select "Stop" to stop the capture
+   - The captured HTTP traffic will be displayed in the Wireshark main window
+
+Please note that these steps may vary slightly depending on the version of Wireshark you are using, but the general process should be similar.
