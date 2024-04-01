@@ -1,0 +1,47 @@
+TASK-2
+
+What is a Socket?
+A socket is a communication endpoint in computer networking, identified by a unique combination of an IP address and a port number. It facilitates
+communication between processes or applications running on different devices connected to a network.
+
+
+How Sockets Work:
+Socket Creation:
+A program creates a socket using the appropriate programming interface provided by the operating system or a network library.
+Binding:
+The socket is bound to a specific IP address and port number, which serves as its unique identifier.
+Listening (Server) / Connecting (Client):
+In a server, the socket listens for incoming connection requests. Clients connect to the server's socket.
+Data Transfer:
+Once a connection is established, data can be sent and received bidirectionally between the client and server.
+Closing:
+When the communication is complete, the sockets are closed.
+
+Types of Sockets:
+Stream Sockets (TCP):
+	Provides a reliable, connection-oriented communication.
+	Ensures data delivery in the correct order without errors.
+Datagram Sockets (UDP):
+ 
+	Provides a connectionless, unreliable communication.
+	Used when low overhead and speed are more critical than guaranteed delivery.
+
+Port Numbers:
+Port numbers are 16-bit unsigned integers, ranging from 0 to 65535.
+Port numbers 0 to 1023 are well-known ports, reserved for specific services. For example:
+80: HTTP (Hypertext Transfer Protocol) 443: HTTPS (HTTP Secure)
+21: FTP (File Transfer Protocol)
+25: SMTP (Simple Mail Transfer Protocol)
+
+
+Types of Connections:
+TCP (Transmission Control Protocol):
+	Connection-oriented protocol.
+	Provides reliable, ordered, and error-checked delivery of data.
+	Suitable for applications where accurate data delivery is crucial, such as file transfers or web browsing.
+
+
+UDP (User Datagram Protocol):
+	Connectionless protocol.
+	Does not guarantee reliable delivery, ordered sequencing, or error checking.
+	Used in applications where low latency and minimal overhead are more critical, such as real-time streaming or online gaming.
